@@ -20,7 +20,7 @@
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
-    "@cypress/webpack-preprocessor": "4.1.0",
+    "@cypress/webpack-preprocessor": "4.1.1",
     "cypress": "3.6.1",
     "husky": "3.0.9",
     "lint-staged": "9.4.2",
