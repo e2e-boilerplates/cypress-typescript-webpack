@@ -6,7 +6,8 @@
     "clean:video": "npx rimraf cypress/videos/*",
     "clean:screenshots": "npx cypress/screenshots/*",
     "open": "npx cypress open",
-    "run": "npx cypress run",
+    "test": "npx cypress run",
+    "test-ci": "npx cypress run --headless",
     "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
     "pretty": "npx prettier --no-config './cypress/**/*.ts' --write"
   },
