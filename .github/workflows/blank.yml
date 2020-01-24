@@ -1,4 +1,4 @@
-name: NodeCI
+name: cypress-typescript-webpack
 
 on: [push]
 
@@ -13,7 +13,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - name: npm install 
+    - name: npm install
       run: |
         npm ci
       env:
