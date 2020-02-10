@@ -22,7 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "@cypress/webpack-preprocessor": "4.1.1",
-    "cypress": "3.8.3",
+    "cypress": "4.0.1",
     "husky": "4.2.1",
     "lint-staged": "10.0.7",
     "prettier": "1.19.1",
