@@ -1,4 +1,4 @@
-# cypress: (typescript, webpack)
+# cypress: (TypeScript and webpack)
 
 [![GitHub Actions status | e2e-boilerplates/cypress-typescript-webpack](https://github.com/e2e-boilerplates/cypress-typescript-webpack/workflows/cypress-typescript-webpack/badge.svg)](https://github.com/e2e-boilerplates/cypress-typescript-webpack/actions?workflow=cypress-typescript-webpack)
 
