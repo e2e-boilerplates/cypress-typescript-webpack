@@ -1,28 +1,10 @@
 {
-  "name": "cypress-typescript-webpack",
-  "version": "1.0.0",
-  "description": "cypress end-to-end test automation boilerplate, using TypeScript and webpack.",
-  "scripts": {
-    "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
-    "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
-    "open": "npx cypress open",
-    "test": "npx cypress run",
-    "test-ci": "npx cypress run --headless",
-    "clean:video": "npx rimraf cypress/videos/*",
-    "clean:screenshots": "npx cypress/screenshots/*"
-  },
-  "keywords": [
-    "cypress",
-    "typescript",
-    "webpack",
-    "boilerplate",
-    "example"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "description": "cypress end-to-end test automation boilerplate, using TypeScript and webpack.",
   "devDependencies": {
     "@cypress/webpack-preprocessor": "4.1.2",
     "cypress": "4.0.2",
+    "eslint-plugin-json": "^2.1.0",
     "husky": "4.2.3",
     "lint-staged": "10.0.7",
     "prettier": "1.19.1",
@@ -37,10 +19,36 @@
       "pre-commit": "lint-staged"
     }
   },
+  "keywords": [
+    "boilerplate",
+    "cypress",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
+    "typescript",
+    "webpack"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "*.{ts,js,css,json,md}": [
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "name": "cypress-typescript-webpack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/cypress-typescript-webpack.git"
+  },
+  "scripts": {
+    "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
+    "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
+    "open": "npx cypress open",
+    "test": "npx cypress run",
+    "test-ci": "npx cypress run --headless",
+    "clean:video": "npx rimraf cypress/videos/*",
+    "clean:screenshots": "npx cypress/screenshots/*"
+  },
+  "version": "1.0.0"
 }
