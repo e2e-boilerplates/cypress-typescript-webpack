@@ -42,7 +42,7 @@
     "open": "npx cypress open",
     "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
     "test": "npx cypress run",
-    "test-ci": "npx cypress run --headless"
+    "test:ci": "npx cypress run --headless"
   },
   "version": "1.0.0"
 }
