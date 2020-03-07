@@ -36,13 +36,13 @@
     "url": "git+https://github.com/e2e-boilerplates/cypress-typescript-webpack.git"
   },
   "scripts": {
-    "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
+    "clean:screenshots": "npx cypress/screenshots/*",
+    "clean:video": "npx rimraf cypress/videos/*",
     "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
     "open": "npx cypress open",
+    "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
     "test": "npx cypress run",
-    "test-ci": "npx cypress run --headless",
-    "clean:video": "npx rimraf cypress/videos/*",
-    "clean:screenshots": "npx cypress/screenshots/*"
+    "test-ci": "npx cypress run --headless"
   },
   "version": "1.0.0"
 }
