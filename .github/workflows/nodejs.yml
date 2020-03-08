@@ -1,8 +1,8 @@
-name: cypress-typescript-webpack
+name: cypress-typescript-webpack-chai-should
 'on':
   push: null
   schedule:
-    - cron: 30 3 1-31/2 * *
+    - cron: 10 1 1-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -21,5 +21,3 @@ jobs:
         run: npm run build --if-present
       - name: Executing tests
         run: 'npm run test:ci'
-      - name: Removing cypress video
-        run: 'npm run clean:video'
