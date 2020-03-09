@@ -1,12 +1,12 @@
-# cypress: (TypeScript and webpack)
+[![GitHub Actions status | e2e-boilerplate/cypress-typescript-webpack-chai-should](https://github.com/e2e-boilerplate/cypress-typescript-webpack-chai-should/workflows/cypress-typescript-webpack-chai-should/badge.svg)](https://github.com/e2e-boilerplate/cypress-typescript-webpack-chai-should/actions?workflow=cypress-typescript-webpack-chai-should)
 
-[![GitHub Actions status | e2e-boilerplates/cypress-typescript-webpack](https://github.com/e2e-boilerplates/cypress-typescript-webpack/workflows/cypress-typescript-webpack/badge.svg)](https://github.com/e2e-boilerplates/cypress-typescript-webpack/actions?workflow=cypress-typescript-webpack)
+# Cypress Boilerplate
 
-Cypress end-to-end test automation boilerplate, using TypeScript and webpack.
+Cypress end-to-end test automation boilerplate, using TypeScript, Webpack, Chai and Should.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/cypress-typescript-webpack.git
-    cd cypress-typescript-webpack
-    npm install
-    npm run run
+git clone git@github.com:e2e-boilerplate/cypress-typescript-webpack-chai-should.git
+cd cypress-typescript-webpack-chai-should
+npm install
+npm run test
