@@ -1,6 +1,6 @@
 describe("Sandbox", () => {
   before(() => {
-    cy.visit("https://e2e-boilerplates.github.io/sandbox/");
+    cy.visit("https://e2e-boilerplate.github.io/sandbox/");
   });
 
   it("should be on Sandbox", () => {
