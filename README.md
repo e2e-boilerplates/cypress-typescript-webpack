@@ -6,7 +6,7 @@ Cypress end-to-end test automation boilerplate, using TypeScript, Webpack, Chai 
 
 ## Getting Started
 
-    	git clone git@github.com:e2e-boilerplate/cypress-typescript-webpack-chai-should.git
-    	cd cypress-typescript-webpack-chai-should
-    	npm install
-    	npm run test
+    	1. git clone git@github.com:e2e-boilerplate/cypress-typescript-webpack-chai-should.git
+    	2. cd cypress-typescript-webpack-chai-should
+    	3. npm install
+    	4. npm run test
