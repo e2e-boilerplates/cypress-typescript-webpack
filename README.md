@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/cypress-typescript-webpack-chai-should](https://github.com/e2e-boilerplate/cypress-typescript-webpack-chai-should/workflows/cypress-typescript-webpack-chai-should/badge.svg)](https://github.com/e2e-boilerplate/cypress-typescript-webpack-chai-should/actions?workflow=cypress-typescript-webpack-chai-should)
+[![GitHub Actions status | e2e-boilerplate/cypress-typescript-webpack-chai-should](https://github.com/e2e-boilerplate/cypress-typescript-webpack-chai-should/workflows/cypress-typescript-webpack-chai-should/badge.svg)](https://github.com/e2e-boilerplate/cypress-typescript-webpack-chai-should/actions?workflow=cypress-typescript-webpack-chai-should) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Cypress Boilerplate
 
