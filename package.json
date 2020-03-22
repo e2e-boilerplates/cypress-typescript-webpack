@@ -1,22 +1,30 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/cypress-typescript-webpack-chai-should/issues"
   },
-  "dependencies": {},
-  "description": "Cypress end-to-end test automation boilerplate. using TypeScript, Webpack, Chai and Should.",
-  "devDependencies": {
+  "dependencies": {
     "@cypress/webpack-preprocessor": "4.1.2",
     "cypress": "4.2.0",
+    "rimraf": "3.0.2",
+    "ts-loader": "6.2.1",
+    "typescript": "3.8.3"
+  },
+  "description": "Cypress end-to-end test automation boilerplate. using TypeScript, Webpack, Chai and Should.",
+  "devDependencies": {
+    "@types/jasmine": "3.5.9",
+    "@types/jasminewd2": "2.0.8",
+    "@types/jest": "25.1.4",
+    "@types/mocha": "7.0.2",
+    "@types/puppeteer": "2.0.1",
+    "@types/selenium-webdriver": "4.0.9",
+    "eslint-plugin-cypress": "2.10.3",
     "husky": "4.2.3",
     "lint-staged": "10.0.8",
     "prettier": "1.19.1",
-    "ts-loader": "6.2.1",
     "tslint": "6.1.0",
     "tslint-config-prettier": "1.18.0",
-    "tslint-plugin-prettier": "2.2.0",
-    "typescript": "3.8.3",
-    "webpack": "4.42.0"
+    "tslint-plugin-prettier": "2.2.0"
   },
   "homepage": "https://github.com/e2e-boilerplate/cypress-typescript-webpack-chai-should#readme",
   "husky": {
@@ -25,8 +33,13 @@
     }
   },
   "keywords": [
+    "boilerplate",
     "chai",
     "cypress",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
     "should",
     "typescript",
     "webpack"
