@@ -8,7 +8,8 @@
     "cypress": "4.2.0",
     "rimraf": "3.0.2",
     "ts-loader": "6.2.2",
-    "typescript": "3.8.3"
+    "typescript": "3.8.3",
+    "webpack": "4.42.1"
   },
   "description": "Cypress end-to-end test automation boilerplate. Using TypeScript, Webpack, Chai and Should.",
   "devDependencies": {
@@ -51,11 +52,12 @@
     "url": "git+https://github.com/e2e-boilerplate/cypress-typescript-webpack-chai-should.git"
   },
   "scripts": {
+    "build": "npx webpack --entry ./cypress/integration/*.ts",
     "clean:screenshots": "npx cypress/screenshots/*",
     "clean:video": "npx rimraf cypress/videos/*",
     "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
     "open": "npx cypress open",
-    "pretty": "npx prettier --no-config './cypress/**/*.ts' --write",
+    "pretty": "npx prettier --no-config './**/*.ts' --write",
     "test": "npx cypress run"
   },
   "version": "1.0.0"

@@ -63,7 +63,7 @@ typings/
 # cypress
 cypress/videos/*
 cypress/screenshot/
-
+build
 .idea/
 
 .DS_Store
