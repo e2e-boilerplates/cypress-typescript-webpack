@@ -26,7 +26,7 @@
   "homepage": "https://github.com/e2e-boilerplate/cypress-typescript-webpack-chai-should#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "lint-staged --allow-empty"
     }
   },
   "keywords": [
