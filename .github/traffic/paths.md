@@ -1,0 +1,12 @@
+| referrer                                                                                                | count | uniques |
+| :------------------------------------------------------------------------------------------------------ | :---- | :------ |
+| /e2e-boilerplate/cypress-typescript-webpack-chai-should                                                 | 6     | 1       |
+| /e2e-boilerplate/cypress-typescript-webpack-chai-should/tree/master/cypress                             | 3     | 1       |
+| /e2e-boilerplate/cypress-typescript-webpack-chai-should/actions                                         | 2     | 1       |
+| /e2e-boilerplate/cypress-typescript-webpack-chai-should/tree/master/cypress/plugins                     | 2     | 1       |
+| /e2e-boilerplate/cypress-typescript-webpack-chai-should/actions/runs/64985221                           | 1     | 1       |
+| /e2e-boilerplate/cypress-typescript-webpack-chai-should/actions/runs/66983146                           | 1     | 1       |
+| /e2e-boilerplate/cypress-typescript-webpack-chai-should/blob/master/cypress/integration/sandbox.spec.ts | 1     | 1       |
+| /e2e-boilerplate/cypress-typescript-webpack-chai-should/blob/master/cypress.json                        | 1     | 1       |
+| /e2e-boilerplate/cypress-typescript-webpack-chai-should/blob/master/cypress/plugins/.gitkeep            | 1     | 1       |
+| /e2e-boilerplate/cypress-typescript-webpack-chai-should/blob/master/package.json                        | 1     | 1       |
