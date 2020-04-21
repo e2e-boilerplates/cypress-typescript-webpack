@@ -15,3 +15,6 @@ Cypress end-to-end test automation boilerplate, Using TypeScript, Webpack, Chai 
 4. npm run build
     
 5. npm run test
+        
+    
+For more boilerplate click [here](https://github.com/e2e-boilerplate/utils/blob/master/docs/implemented.md)
