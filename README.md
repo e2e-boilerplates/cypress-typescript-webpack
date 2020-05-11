@@ -2,7 +2,7 @@
     
 # Cypress Boilerplate
     
-Cypress end-to-end test automation boilerplate, Using TypeScript, Webpack, Chai and Should.
+Cypress end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org), [Webpack](https://webpack.js.org), [Chai](https://www.chaijs.com) and Should.
     
 ## Getting Started
     
