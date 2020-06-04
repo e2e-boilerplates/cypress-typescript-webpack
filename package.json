@@ -8,7 +8,7 @@
     "cypress": "4.7.0",
     "rimraf": "3.0.2",
     "ts-loader": "7.0.5",
-    "tsify": "4.0.1",
+    "tsify": "4.0.2",
     "typescript": "3.9.3",
     "webpack": "4.43.0"
   },
