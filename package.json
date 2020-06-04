@@ -9,7 +9,7 @@
     "rimraf": "3.0.2",
     "ts-loader": "7.0.5",
     "tsify": "4.0.2",
-    "typescript": "3.9.3",
+    "typescript": "3.9.5",
     "webpack": "4.43.0"
   },
   "description": "Cypress end-to-end test automation boilerplate. Using TypeScript, Webpack, Chai and Should.",
