@@ -7,7 +7,7 @@
     "@cypress/webpack-preprocessor": "5.4.1",
     "cypress": "4.10.0",
     "rimraf": "3.0.2",
-    "ts-loader": "8.0.0",
+    "ts-loader": "8.0.1",
     "tsify": "4.0.2",
     "typescript": "3.9.6",
     "webpack": "4.43.0"
