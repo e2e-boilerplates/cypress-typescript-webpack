@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/cypress-typescript-webpack-chai-should/issues"
   },
   "dependencies": {
-    "@cypress/webpack-preprocessor": "5.4.3",
+    "@cypress/webpack-preprocessor": "5.4.4",
     "cypress": "4.12.1",
     "rimraf": "3.0.2",
     "ts-loader": "8.0.2",
