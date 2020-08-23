@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "@cypress/webpack-preprocessor": "5.4.4",
-    "cypress": "4.12.1",
+    "cypress": "5.0.0",
     "rimraf": "3.0.2",
     "ts-loader": "8.0.2",
     "tsify": "5.0.2",
