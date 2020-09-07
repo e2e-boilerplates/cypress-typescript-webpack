@@ -2,7 +2,7 @@
     
 # Cypress Boilerplate
     
-Cypress end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org), [Webpack](https://webpack.js.org), [Chai](https://www.chaijs.com) and [Commonjs](https://www.chaijs.com/api/bdd/).. Clone or fork this repository.
+Cypress end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org), [Webpack](https://webpack.js.org), [Chai](https://www.chaijs.com) and [Commonjs](https://www.chaijs.com/api/bdd/). Clone or fork this repository.
     
 ## Getting Started
     
